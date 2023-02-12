@@ -15,7 +15,7 @@ local Groupbox4 = Tab2:CreateGroupbox("Groupbox 2", "Right")
 
 -- Groupbox 1
 local ExampleToggle = Groupbox1:CreateToggle("Example toggle", function(state)
-   print(state)
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/littlegui/main/Build-A-Boat'))()
 end)
 
 local ExampleToggle2 = Groupbox1:CreateToggle("Example keybind", function(state)
